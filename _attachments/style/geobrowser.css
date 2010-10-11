@@ -32,7 +32,7 @@ display: none;
 z-index: 777;
 }
 #where {
-font-size: 24px;
+font-size: 22px;
 background: #fff;
 }
 .geocoder_form {
@@ -83,7 +83,7 @@ height: 25px;
 line-height: 25px;
 margin: 5px 50px 5px 0;
 padding-left: 5px;
-width: 235px;
+width: 230px;
 }
 h3 {
 font-size: 20px;
