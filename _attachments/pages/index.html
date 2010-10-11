@@ -1,0 +1,42 @@
+<html xmlns="http://www.w4.org/1999/xhtml">
+  <head>
+    <title>Find Some Nature! in Portland, OR</title>
+    <meta name="apple-mobile-web-app-capable" content = "yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content = "black-translucent" />
+    <meta name="viewport" content = "initial-scale = 1.0, user-scalable = no" />
+    <link rel="stylesheet" href="http://openlayers.org/dev/theme/default/style.css" type="text/css" />
+    <script src="http://openlayers.org/api/OpenLayers.js"></script>
+    <script src="/script/multitouch/mousewheelfix.js"></script>
+    <script src="/script/multitouch/multitouchhandler.js"></script>
+    <script src="/script/multitouch/multitouchnavigation.js"></script>
+    <script src='http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAUXDSXET8IRGdgHP9FpGw5BSMbjxqe0CzLvag1RNirDMEY71bcRT5oq5d6TOobC-AyZwlObEkRJxkzg'></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="/script/cloudmade.js"></script>
+    <script type="text/javascript" src="/script/geobrowser.js"></script>
+    <link rel="stylesheet" href="/style/geobrowser.css">
+  </head>
+  <body>
+    <div id="loader"><img src='http://imgur.com/yQjd8.gif'></div>
+    <div id="map" class="smallmap"></div>
+    <div class="title">Find Some Nature!</div>
+    <form action="#" class="geocoder_form">
+      <div id="where">Where are you?</div>
+      <input type="text" class="geocoder" name="address" value="" />
+      <br />
+      <input type="submit" class="button" value="Find some nature!"/>
+    </form>
+    <div class="settings">
+    </div>
+    <div class="chooser" style="display: none;">
+      <div class="chooser_title">Show me:</div>
+      <ul>
+        <li id="vegetation" class="selected">Patches of vegetation</li>
+        <li id="parks">City parks</li>
+        <li id="urban_edibles">Urban edibles</li>
+        <li id="heritage_trees">Heritage trees</li>
+      </ul>
+      <div id ="metadata" class="block"></div>
+    </div>
+    <div id ="about" class="block">By <a href='http://maxogden.com'>Max Ogden</a>. Powered by <a href="http://pdxapi.com">PDXAPI</a></div>
+  </body>
+</html>
